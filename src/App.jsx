@@ -4,8 +4,9 @@ import Home from './components/Home';
 import Event from './components/Event';
 import Confirmation from './components/Confirmation';
 import Gift from './components/Gift';
-import More from './components/More';
 import Footer from './components/Footer';
+import Music from './components/music/Music';
+import Memories from './components/memories/Memories';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Event/>
       <Confirmation/>
       <Gift/>
-      <More/>
+      <Music/>
+      <Memories/>
       <Footer/>
 
 
