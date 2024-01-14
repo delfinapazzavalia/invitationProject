@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Event from './components/event/Event';
@@ -11,7 +11,7 @@ import Memories from './components/memories/Memories';
 function App() {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Home/>
       <Event/>
       <Confirmation/>

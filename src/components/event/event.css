@@ -1,0 +1,92 @@
+.divEventSection{
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.rowEventSection1{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap:6.375rem; 
+    justify-content: center;
+    align-items: center;
+}
+.rowEventSection2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap:6.375rem; 
+    margin-top: 1.125rem;
+    justify-content:left;
+    align-items: center;
+}
+
+
+.titleEventSection {
+  color: #000;
+  font-family: Inika;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subtitleEventSection {
+  color: #000;
+
+  text-align: center;
+  font-family: Inika;
+
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left
+  
+}
+
+.textEventSection {
+  color: #000;
+  font-family: Inika;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1.375rem;
+}
+
+.buttonEventSection {
+  display: inline-flex;
+  padding: 0.313rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625px;
+  border-radius: 1.875rem;
+  background: #c8c8c8;
+  border-color: #c8c8c8;
+  color: #fff;
+  text-align: center;
+  font-family: Inika;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top:1.875rem ;
+  margin-bottom: 3.75rem;
+}
+
+.carousel{
+width: 37.5rem;
+height: 18.125;
+flex-shrink: 0;
+border-radius: 1.875rem;
+
+}
+.imgCarousel{
+width: 37.5rem!important;
+height: 18.125!important;
+}
+.map{
+width: 37.5rem!important;
+height: 30.75rem!important;
+flex-shrink: 0;
+border-radius: 1.875rem;
+filter: grayscale(100%);
+}
