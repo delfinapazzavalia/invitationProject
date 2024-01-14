@@ -1,0 +1,27 @@
+.general-confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:8rem;
+    margin-bottom: 8rem;
+  }
+
+  .parrafo-confirmation{
+    text-align: center;
+    padding-left: 25rem;   
+  padding-right: 25rem;
+  margin-bottom: 2rem;
+  
+  }
+
+  .button-confirmation{
+    background-color: rgb(170, 169, 169);       /* Fondo gris */
+  color: white;                /* Texto blanco */
+  border-radius: 2rem;          /* Bordes redondeados */
+  padding: 10px 20px;          /* Ajusta el relleno según tus necesidades */
+  border: none;                /* Sin borde */
+  cursor: pointer;             /* Cambia el cursor al pasar por encima */
+  text-decoration: none;       /* Elimina subrayado si el botón es un enlace */
+  display: inline-block; 
+  }
