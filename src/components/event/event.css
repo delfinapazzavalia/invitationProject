@@ -1,23 +1,22 @@
-.divEventSection{
+.divEventSection {
   margin-left: 7rem;
   margin-right: 7rem;
 }
-.rowEventSection1{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap:6.375rem; 
-    justify-content: center;
-    align-items: center;
+.rowEventSection1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.375rem;
+  justify-content: center;
+  align-items: center;
 }
-.rowEventSection2{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap:6.375rem; 
-    margin-top: 1.125rem;
-    justify-content:left;
-    align-items: center;
+.rowEventSection2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.375rem;
+  margin-top: 1.125rem;
+  justify-content: left;
+  align-items: center;
 }
-
 
 .titleEventSection {
   color: #000;
@@ -26,6 +25,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.carousel {
+  width: 37.5rem;
+  height: 18.125;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+}
+.imgCarousel {
+  width: 37.5rem !important;
+  height: 18.125 !important;
 }
 
 .subtitleEventSection {
@@ -38,8 +47,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-align: left
-  
+  text-align: left;
 }
 
 .textEventSection {
@@ -68,25 +76,19 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top:1.875rem ;
+  margin-top: 1.875rem;
   margin-bottom: 3.75rem;
 }
-
-.carousel{
-width: 37.5rem;
-height: 18.125;
-flex-shrink: 0;
-border-radius: 1.875rem;
-
+.buttonEventSection:hover,
+.buttonEventSection:active {
+  background: #c8c8c8 !important;
+  border-color: #c8c8c8 !important;
 }
-.imgCarousel{
-width: 37.5rem!important;
-height: 18.125!important;
-}
-.map{
-width: 37.5rem!important;
-height: 30.75rem!important;
-flex-shrink: 0;
-border-radius: 1.875rem;
-filter: grayscale(100%);
+
+.map {
+  width: 37.5rem !important;
+  height: 30.75rem !important;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  filter: grayscale(100%);
 }
