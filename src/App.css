@@ -1,0 +1,23 @@
+/* app.css */
+
+/* Resetear los márgenes y rellenos predeterminados del cuerpo y la página */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Establecer el tamaño del contenedor principal para ocupar toda la pantalla */
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Establecer que todos los componentes ocupen todo el ancho de su contenedor principal */
+  /* Puedes aplicar este estilo a los componentes específicos si es necesario */
+  * {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  

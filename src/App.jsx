@@ -1,12 +1,12 @@
 
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Event from './components/Event';
-import Confirmation from './components/Confirmation';
-import Gift from './components/Gift';
-import Footer from './components/Footer';
-import Music from './components/music/Music';
-import Memories from './components/memories/Memories';
+import Navbar from '../src/components/navbar/Navbar';
+import Home from '../src/components/home/Home';
+import Event from '../src/components/event/Event';
+import Confirmation from '../src/components/confirmation/Confirmation';
+import Gift from '../src/components/gift/Gift';
+import Footer from '../src/components/footer/Footer';
+import Music from '../src/components/music/Music';
+import Memories from '../src/components/memories/Memories';
 
 function App() {
   return (

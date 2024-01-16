@@ -1,11 +1,16 @@
 import React from 'react';
-import '../components/footer.css'
+import '../footer/footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <span>Derechos de autor © 2024  reservados.</span>
-    </footer>
+    <>
+      <footer className="footer">
+        <div className="footer-content">
+          <p>Copyright 2023 | Created by DMV Development®</p>
+        </div>
+      </footer>
+    </>
+
   );
 };
 
