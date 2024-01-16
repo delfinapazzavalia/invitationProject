@@ -11,7 +11,7 @@ const Home = () => {
       <div className="headings-container">
         <h1>Nombre & Nombre</h1>
         <h2>Save the date</h2>
-        <h3>11 de noviembre de 2024</h3>
+        <h3>11 de nov de 2024</h3>
         <h3>Cuenta regresiva</h3>
       </div>
     </div>
