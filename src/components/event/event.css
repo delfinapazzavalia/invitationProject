@@ -92,3 +92,106 @@
   border-radius: 1.875rem;
   filter: grayscale(100%);
 }
+
+@media only screen and (max-width: 1192px) {
+  .divEventSection {
+    margin-left: 1.188rem;
+    margin-right: 1.188rem;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+  }
+  .rowEventSection1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.563rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .rowEventSection2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.563rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleEventSection {
+    width: 17.375rem;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+    font-family: Inika;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .carousel {
+    width: 24.44rem;
+    height: 11.813rem;
+    flex-shrink: 0;
+    /* border-radius: 1.875rem!important; */
+    margin: 0 auto;
+  }
+  .imgCarousel {
+    width: 24.44rem !important;
+    height: 11.813rem;
+  }
+
+  .subtitleEventSection {
+    color: #000;
+    text-align: center;
+    font-family: Inika;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: -1rem; */
+  }
+
+  .textEventSection {
+    color: #000;
+
+    text-align: center;
+    font-family: Inika;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -1rem;
+  }
+
+  .buttonEventSection {
+    display: inline-flex;
+    padding: 0.313rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625px;
+    border-radius: 1.875rem;
+    background: #c8c8c8;
+    border-color: #c8c8c8;
+    color: #fff;
+
+    text-align: center;
+    font-family: Inika;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.1rem;
+    margin-bottom: 1.563rem;
+  }
+
+  .map {
+    width: 24.438rem !important;
+    height: 20rem !important;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    filter: grayscale(100%);
+    order: -1;
+  }
+}
