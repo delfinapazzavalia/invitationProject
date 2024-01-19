@@ -10,7 +10,7 @@ const CountdownTimer = ({ targetDate }) => {
       // Renderizar la cuenta regresiva
       return (
         <span>
-          {days} días, {hours} horas, {minutes} minutos
+          {days} días | {hours} horas | {minutes} minutos
         </span>
       );
     }
