@@ -13,7 +13,7 @@ const Home = () => {
     <div className="home-left">
       <h1 className="home-welcome"><strong> Nombre & Nombre </strong></h1>
       <h2>Save the date</h2>
-      <span>11 de Noviembre de 2024</span>
+      <span>11 de Noviembrede 2024</span>
       <br />
       <br />
       <CountdownTimer targetDate={targetDate} />
