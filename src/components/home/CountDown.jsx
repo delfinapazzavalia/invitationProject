@@ -5,7 +5,7 @@ const CountdownTimer = ({ targetDate }) => {
   const renderer = ({ days, hours, minutes, completed }) => {
     if (completed) {
       // La cuenta regresiva ha terminado
-      return <span>¡La cuenta regresiva ha terminado!</span>;
+      return <span>La cuenta regresiva ha terminado</span>;
     } else {
       // Renderizar la cuenta regresiva
       return (
