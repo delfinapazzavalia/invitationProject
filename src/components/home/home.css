@@ -1,61 +1,83 @@
-/* ImageWithHeadings.css */
-body {
-    margin: 0;
-  }
-.image-with-headings-container {
+.home {
+    background-color: #fff;
+    background-size: 200% 200%;
+    animation: animated-background 10s ease infinite;
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 50vw;
-    margin-top: 50px;
-    background-color: #FFF;
-    padding: 15px;
-    position: relative;
-  top: 0;
-  }
-  
-  .image {
-   
-    margin-left: 100px;
-    width: 300px;
-height: 400px;
+    padding: 21px 50px;
+    font-family: Inika;
+    color: #000;
+    margin-top: 57px;
+    width: 100%;
+}
 
-  }
-  
-  .headings-container {
-    width: 50%; /* El contenedor de títulos ocupa el 50% del contenedor */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* Alinea los elementos hacia la derecha */
-  }
-  
-  h1 {
+
+.home-left {
+    text-align: right;
+    flex: 1;
+    padding-right: 2%;
+    z-index: 2;
+}
+
+.home-left h1 {
+    font-size: 40px;
+    font-weight: bold;
     margin-bottom: 10px;
-    color: #000;
-text-align: center;
-font-family: Inika;
-font-size: 55px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
+}
 
-  h2 {
-    color: #000;
-text-align: center;
-font-family: Inika;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
-  
-  h3{
-    color: #000;
-text-align: center;
-font-family: Inika;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
+.home-left .home-welcome {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.home-left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+    z-index: 2;
+}
+
+.home-right img {
+
+    z-index: 2;
+    width: 450px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35%;
+    }
+
+    .home-left {
+        padding: px;
+        margin-bottom: 10px;
+        text-align: center;
+        order: 2;
+    }
+
+    .home-right {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+    }
+}
