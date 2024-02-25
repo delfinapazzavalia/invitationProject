@@ -1,5 +1,4 @@
-import React from "react";
-import { Button, Col, Row, Container, Carousel } from "react-bootstrap";
+import { Button, Carousel } from "react-bootstrap";
 import "../event/event.css";
 import img1 from "../../assets/images/eventSection/Carousel/img1.png";
 import { Link } from "react-router-dom";
@@ -55,7 +54,7 @@ const Event = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.7607951218642!2d-65.29601829117578!3d-26.815744189057884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242d62123af13%3A0xaa2edb3420b1b358!2sParroquia%20Nuestra%20Se%C3%B1ora%20del%20Valle!5e0!3m2!1ses!2sar!4v1705193279549!5m2!1ses!2sar"
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

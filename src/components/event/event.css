@@ -1,6 +1,6 @@
 .divEventSection {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-left: 7.188rem;
+  margin-right: 7.188rem;
 }
 .rowEventSection1 {
   display: grid;
@@ -14,11 +14,13 @@
   grid-template-columns: 1fr 1fr;
   gap: 6.375rem;
   margin-top: 1.125rem;
-  justify-content: left;
+  justify-content: center ;
   align-items: center;
+  /* width:fit-content ; */
 }
 
 .titleEventSection {
+  width: 33.125rem;
   color: #000;
   font-family: Inika;
   font-size: 2.3rem;
@@ -93,7 +95,7 @@
   filter: grayscale(100%);
 }
 
-@media only screen and (max-width: 1192px) {
+@media only screen and (max-width: 1257px) {
   .divEventSection {
     margin-left: 1.188rem;
     margin-right: 1.188rem;
@@ -193,5 +195,6 @@
     border-radius: 1.875rem;
     filter: grayscale(100%);
     order: -1;
+  
   }
 }
