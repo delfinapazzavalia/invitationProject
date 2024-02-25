@@ -1,13 +1,24 @@
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  footer span {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
+
+body {
+  margin: 0;
+}
+
+.footer {
+  background-color: #D9D9D9;
+ 
+  text-align: center;
+  z-index: 2;
+  color: #000;
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: Inika;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+

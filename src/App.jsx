@@ -1,3 +1,4 @@
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
@@ -7,6 +8,7 @@ import Gift from './components/gift/Gift';
 import Footer from './components/footer/Footer';
 import Music from './components/music/Music';
 import Memories from './components/memories/Memories';
+
 
 function App() {
   return (
