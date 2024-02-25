@@ -1,17 +1,19 @@
 
-import Navbar from '../src/components/navbar/Navbar';
-import Home from '../src/components/home/Home';
-import Event from '../src/components/event/Event';
-import Confirmation from '../src/components/confirmation/Confirmation';
-import Gift from '../src/components/gift/Gift';
-import Footer from '../src/components/footer/Footer';
-import Music from '../src/components/music/Music';
-import Memories from '../src/components/memories/Memories';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import Event from './components/event/Event';
+import Confirmation from './components/confirmation/Confirmation';
+import Gift from './components/gift/Gift';
+import Footer from './components/footer/Footer';
+import Music from './components/music/Music';
+import Memories from './components/memories/Memories';
+
 
 function App() {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Home/>
       <Event/>
       <Confirmation/>

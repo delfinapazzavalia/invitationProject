@@ -1,0 +1,108 @@
+.divMusicSection {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.spotifyLogo {
+  margin: auto;
+  width: 3.313rem;
+  height: 3.313rem;
+  flex-shrink: 0;
+}
+
+.textMusicSection1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+  font-family: Inika;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.textMusicSection2 {
+  margin-bottom: 0.5rem;
+  color: #000;
+  text-align: center;
+  font-family: Inika;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.buttonMusicSection {
+  width: 14.24rem;
+  height: 2.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.875rem;
+  background: #c8c8c8;
+  border-color: #c8c8c8;
+  color: #fff;
+  text-align: center;
+  font-family: Inika;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.buttonMusicSection:hover,
+.buttonMusicSection:active {
+  background: #c8c8c8 !important;
+  border-color: #c8c8c8 !important;
+}
+
+@media only screen and (max-width: 1192px) {
+  .spotifyLogo {
+    margin: auto;
+    width: 3.313rem;
+    height: 3.313rem;
+    flex-shrink: 0;
+  }
+
+  .textMusicSection1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+    font-family: Inika;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .textMusicSection2 {
+    margin-bottom: 0.5rem;
+    color: #000;
+    text-align: center;
+    font-family: Inika;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .buttonMusicSection {
+    width: 11.313rem;
+    height: 1.875rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.875rem;
+    background: #c8c8c8;
+    border-color: #c8c8c8;
+    color: #fff;
+    text-align: center;
+    font-family: Inika;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+}
