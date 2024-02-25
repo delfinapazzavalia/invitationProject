@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './gift.css'
 
 const Gift = () => {
   return (
     <>
-    <h1>GIFT</h1>
+    <div className='general-gift'>
+    <h2>Si queres hacernos un regalo</h2>
+    <img src='src\assets\gift-images\Vector.png'></img>
+    <img src='src\assets\gift-images\Vector (2).png'></img>
+    <p>Alias: wedding.project</p>
+    </div>
     </>
   )
 }
